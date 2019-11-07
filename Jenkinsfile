@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage("work"){
             steps{
-                echo '''${params.DELIVERY}'''
+                echo '${params.DELIVERY}'
             }
             
         }
